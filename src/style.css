@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+#cidade-input {
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+#btn-pesquisar {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #33b821;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#btn-pesquisar:hover {
+    background-color: #1e8810;
+}
+
+#info-clima {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #9e0128;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+#info-clima p {
+    font-size: 18px;
+}
